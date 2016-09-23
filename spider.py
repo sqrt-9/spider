@@ -47,8 +47,8 @@ data = op.read()
 data = ungzip(data)     # 解压
 _xsrf = getXSRF(data.decode())
 url += 'login'
-id = 'zqwmhyf@163.com'
-password = 'zqwm=960411'
+id = 
+password = 
 postDict = {
         '_xsrf':_xsrf,
         'email': id,
